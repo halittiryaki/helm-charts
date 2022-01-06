@@ -41,6 +41,12 @@ securityContext:
   allowPrivilegeEscalation: false
   privileged: false
 
+## Additional Init Containers
+additionalInitContainers: {}
+
+## additional Volumes
+additionalVolumes: {}
+
 ## Default service port
 service:
   type: ClusterIP
